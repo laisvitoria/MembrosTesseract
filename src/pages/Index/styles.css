@@ -14,6 +14,10 @@ header > div >img{
     margin: 1rem 1rem 1rem 0;
 }
 
+.container{
+    height: 80vh;
+}
+
 .container > section{
     height: 100%;
     max-width: 920px;
@@ -27,12 +31,18 @@ header > div >img{
     padding: 2rem 0;
 }
 
+.container > section > :last-child > h2 {
+    font-size: 44px;
+    text-align: center;
+    margin: 0 5rem;
+}
+
 .container > section > :last-child{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
 }
 
 .container > section> :last-child > a{

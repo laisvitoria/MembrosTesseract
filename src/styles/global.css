@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    height: 100vh;
+}
+
 body, main, #root{
     background-color: var(--dark);
 }
