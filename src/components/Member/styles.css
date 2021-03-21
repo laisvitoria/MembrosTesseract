@@ -1,0 +1,23 @@
+.member{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    padding: 5px 7px;
+}
+
+.member:hover{
+    filter: grayscale(0.5);
+    background-color: rgb(128 128 128 / 50%);
+}
+
+.member > img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+.member h3{
+    font-weight: 400;
+}

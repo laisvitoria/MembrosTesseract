@@ -1,8 +1,10 @@
-export default function Member({login, avatar}){
-    return(
-        <div>
+import './styles.css'
+
+export default function Member({login, avatar, onClick}){
+    return (
+        <div className="member" onClick={onClick}>
             <img src={avatar} alt="avatar"/>
-            <p>{login}</p>
+            <h3>{login}</h3>
         </div>
     )
 }

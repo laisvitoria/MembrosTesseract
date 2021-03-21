@@ -2,7 +2,7 @@ header > div{
     display: flex;
     align-items: center;
     max-width: 920px;
-    margin: 2rem auto;
+    margin: 0 auto;
     border-bottom: 1px solid var(--white); 
 }
 
@@ -19,4 +19,10 @@ header > div >img{
     max-width: 920px;
     margin: 0 auto;
     display: flex;
+}
+
+.container > section > :first-child {
+    width: 30%;
+    border-right: 1px solid gray;
+    padding: 2rem 0;
 }

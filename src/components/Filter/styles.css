@@ -1,0 +1,12 @@
+input {
+    background-color: var(--dark);
+    color: gray;
+    border: 0 solid var(--white);
+    border-bottom: 2px solid var(--white);
+    margin: -0.5rem auto 1.5rem;
+    display: flex;
+    align-self: center;
+    height: 30px;
+    padding: 0 15px;
+    outline: var(--dark);
+}

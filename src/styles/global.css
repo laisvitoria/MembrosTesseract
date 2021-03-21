@@ -4,14 +4,16 @@
 }
 
 body, main, #root{
-    height: 100vh;
-    width: 100vw;
     background-color: var(--dark);
+}
+
+p, h1, h2, h3, h4, h6, a{
+    font-family: 'Montserrat';
     color: var(--white)
 }
 
-p, h1, h2, h3, h4, h6{
-    font-family: 'Montserrat';
+a{
+    text-decoration: none;
 }
 
 :root{
