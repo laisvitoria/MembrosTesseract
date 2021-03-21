@@ -1,0 +1,22 @@
+header > div{
+    display: flex;
+    align-items: center;
+    max-width: 920px;
+    margin: 2rem auto;
+    border-bottom: 1px solid var(--white); 
+}
+
+header > div >img{
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.container > section{
+    height: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+}

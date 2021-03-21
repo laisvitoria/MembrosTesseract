@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, main, #root{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--dark);
+    color: var(--white)
+}
+
+p, h1, h2, h3, h4, h6{
+    font-family: 'Montserrat';
+}
+
+:root{
+    --dark: #0d1117;
+    --white: #fff
+}
