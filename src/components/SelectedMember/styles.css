@@ -1,0 +1,16 @@
+.container__selectedMember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.container__selectedMember > img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    margin-right: 1.5rem;
+}
+
+.container__selectedMember > div > :first-child {
+    margin-bottom: 1rem;
+}
