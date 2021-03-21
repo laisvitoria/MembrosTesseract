@@ -16,6 +16,7 @@ export default function Index(){
             await api.get('/orgs/grupotesseract/public_members')
             .then((response) => {
                 setMembers(response.data)
+                setFilteredMembers(response.data)
             })
             .catch((err) => {
                 console.log(err)
@@ -32,17 +33,15 @@ export default function Index(){
         })
         .catch((err) => {
             console.log(err)
-            })
+        })
     }
 
     function onChangeText(event){
-        console.log(event.target.value)
         setInputValue(event.target.value)
+        setFilteredMembers(members?.filter(member => {
+            return member.login.indexOf(event.target.value) !== -1
+        }))
     }
-
-    useEffect(() => {
-        setFilteredMembers(members.filter(member => member.login.indexOf(inputValue) !== -1))
-    }, [inputValue, members])
 
     return(
         <div className="container">
