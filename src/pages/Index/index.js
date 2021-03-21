@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
+
 import Member from '../../components/Member'
+import SelectedMember from '../../components/SelectedMember'
 import Filter from '../../components/Filter'
+
 import api from '../../services/api'
 import './styles.css'
 
@@ -30,6 +33,7 @@ export default function Index(){
         await api.get(`/users/${login}`)
         .then((response) => {
             setMemberSelected(response.data)
+            console.log(response.data)
         })
         .catch((err) => {
             console.log(err)
@@ -67,7 +71,16 @@ export default function Index(){
                     )}
                 </article>
                 <article>
-
+                    {!memberSelected ? <h2>Selecione um membro para saber mais sobre ele</h2> : 
+                        <SelectedMember
+                            avatar={memberSelected.avatar_url}
+                            login={memberSelected.login}
+                            name={memberSelected.name}
+                            repositories={memberSelected.public_repos}
+                            followers={memberSelected.followers}
+                            created_at={memberSelected.created_at}
+                        />
+                    }
                 </article>
             </section>
         </div>
