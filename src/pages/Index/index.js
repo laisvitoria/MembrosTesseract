@@ -56,7 +56,7 @@ export default function Index(){
                         src="https://avatars.githubusercontent.com/u/21321212?s=280&v=4"
                         alt="logo-tesseract"
                     />
-                    <h1>Desafio Front-end</h1>
+                    <h1>Membros da Tesseract</h1>
                 </div>
             </header>
             <section>
