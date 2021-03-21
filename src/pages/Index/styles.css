@@ -57,3 +57,41 @@ header > div >img{
 .container > section> :last-child > a:hover{
     filter: contrast(0.5);
 }
+
+@media(max-width: 920px){
+    header > div{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    header > div > img {
+        width: 6rem;
+        height: 6rem;
+    }
+    .container > section{
+        flex-direction: column;
+    }
+
+    article{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .container > section > :first-child{
+        border: 0;
+        width: auto;
+    }
+
+    .container > section > :last-child{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .container > section > :last-child > a {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
