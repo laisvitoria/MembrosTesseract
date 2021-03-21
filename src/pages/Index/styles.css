@@ -72,6 +72,11 @@ header > div >img{
         flex-direction: column;
     }
 
+    .container > section > :last-child > h2{
+        font-size: 34px;
+        margin: 0 10rem;
+    }
+
     article{
     justify-content: center;
     display: flex;
@@ -93,5 +98,11 @@ header > div >img{
         text-align: center;
         align-items: center;
         flex-direction: column;
+    }
+}
+
+@media(max-width: 640px){
+    .container > section > :last-child > h2{
+        margin: 0 3rem;
     }
 }
