@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { FaGithub } from 'react-icons/fa'
 
 import Member from '../../components/Member'
 import SelectedMember from '../../components/SelectedMember'
@@ -82,6 +83,7 @@ export default function Index(){
                             created_at={memberSelected.created_at}
                         />
                         <a href={memberSelected.html_url} target="blank">
+                            <FaGithub  fontSize={20} style={{marginRight: '1rem'}}/>
                             Visualizar no GitHub
                         </a>
                     </>
