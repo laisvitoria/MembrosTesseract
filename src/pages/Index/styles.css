@@ -26,3 +26,22 @@ header > div >img{
     border-right: 1px solid gray;
     padding: 2rem 0;
 }
+
+.container > section > :last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > section> :last-child > a{
+    padding: 0.75rem 5rem;
+    background-color: gray;
+    color: var(--dark);
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.container > section> :last-child > a:hover{
+    filter: contrast(0.5);
+}

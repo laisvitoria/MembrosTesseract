@@ -71,7 +71,8 @@ export default function Index(){
                     )}
                 </article>
                 <article>
-                    {!memberSelected ? <h2>Selecione um membro para saber mais sobre ele</h2> : 
+                    {!memberSelected ? <h2>Selecione um membro para saber mais sobre ele</h2> :
+                    <>
                         <SelectedMember
                             avatar={memberSelected.avatar_url}
                             login={memberSelected.login}
@@ -80,6 +81,10 @@ export default function Index(){
                             followers={memberSelected.followers}
                             created_at={memberSelected.created_at}
                         />
+                        <a href={memberSelected.html_url} target="blank">
+                            Visualizar no GitHub
+                        </a>
+                    </>
                     }
                 </article>
             </section>
