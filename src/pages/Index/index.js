@@ -24,6 +24,7 @@ export default function Index(){
             })
             .catch((err) => {
                 console.log(err)
+                alert("Ops! Estamos com problemas. Tente novamente mais tarde!")
             })
             isLoading(false)
         }
@@ -34,10 +35,10 @@ export default function Index(){
         await api.get(`/users/${login}`)
         .then((response) => {
             setMemberSelected(response.data)
-            console.log(response.data)
         })
         .catch((err) => {
             console.log(err)
+            alert("Ops! Estamos com problemas. Tente novamente mais tarde!")
         })
     }
 
