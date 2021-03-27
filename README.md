@@ -18,13 +18,13 @@ O projeto foi desenvolvido utilizando:
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-    - [ReactJS](https://pt-br.reactjs.org/) 
+- [ReactJS](https://pt-br.reactjs.org/)
 
-    -[CSS](https://www.w3schools.com/css/)
+-[CSS](https://www.w3schools.com/css/)
 
-    - [Axios](https://github.com/axios/axios)
+- [Axios](https://github.com/axios/axios)
     
-    - [API do GitHub](https://docs.github.com/pt/rest)
+- [API do GitHub](https://docs.github.com/pt/rest)
 
 ## Pré-requisitos e como rodar a aplicação
 
@@ -35,9 +35,11 @@ Clone este repositório em sua máquina utilizando o comando `git clone https://
 
 ## Screenshots da aplicação
 
-![mobile](/src/assets/mobile.png)
+Desktop:
 ![desktop](/src/assets/desktop.png)
 
+Mobile:
+![mobile](/src/assets/mobile.png)
 ## Desenvolvedora
 
 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/56899211?s=400&u=82140ee1476e986acfb0b0eb5312738ff6a3e96b&v=4" width="100px;" alt=""/>
