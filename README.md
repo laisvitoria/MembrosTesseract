@@ -9,7 +9,7 @@ Esse projeto consite na listagem dos mebros da Tesseract presentes no GitHub.
 
 Nele é possível visualizar os membros, fazer uma filtragem por nome e obter mais informações sobre o membro desejado apenas clicando sobre seu login.
 
-![video](/src/assets/video.mp4)
+<iframe src='//gifs.com/embed/membros-OM1jXN' frameborder='0' scrolling='no' width='1920px' height='1040px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 Acesse-o clicando [aqui](https://membros-tesseract-q1niqwlzo-laisvitoria.vercel.app/).
 
