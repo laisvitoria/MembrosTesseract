@@ -40,6 +40,7 @@ Desktop:
 
 Mobile:
 ![mobile](/src/assets/mobile.png)
+
 ## Desenvolvedora
 
 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/56899211?s=400&u=82140ee1476e986acfb0b0eb5312738ff6a3e96b&v=4" width="100px;" alt=""/>
